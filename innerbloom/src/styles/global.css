@@ -1,0 +1,117 @@
+/* 🌸 FONTS */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;600&family=Playfair+Display:wght@500&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+  background: linear-gradient(135deg, #FAF6F0, #F3E8FF);
+  color: #3A3A3A;
+}
+
+/* 🌸 NAVBAR */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: rgba(255,255,255,0.5);
+  backdrop-filter: blur(15px);
+  border-radius: 0 0 25px 25px;
+}
+
+.nav button {
+  background: #B8A4D4;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+/* 🌸 HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-family: 'Playfair Display', serif;
+}
+
+.hero span {
+  color: #E8B4B8;
+}
+
+/* 🌸 MOOD BUTTONS */
+.moods {
+  margin-top: 20px;
+}
+
+.moods button {
+  margin: 10px;
+  padding: 12px 20px;
+  border-radius: 30px;
+  border: none;
+  background: rgba(255,255,255,0.7);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.moods button:hover {
+  transform: scale(1.1);
+  background: #E8B4B8;
+  color: white;
+}
+
+/* 🌸 SECTION */
+.section {
+  padding: 60px 40px;
+}
+
+/* 🌸 GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+/* 🌸 CARDS */
+.card {
+  padding: 25px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.6);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px) scale(1.02);
+}
+
+/* 🌸 CHAT */
+.chat-box {
+  background: rgba(255,255,255,0.7);
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+}
+
+/* 🌸 FOOTER */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #B8A4D4;
+  color: white;
+  border-radius: 25px 25px 0 0;
+}
